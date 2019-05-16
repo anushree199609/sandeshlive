@@ -1,0 +1,14 @@
+body { margin:0px; font-family:Arial, Helvetica, sans-serif; background:#ffffff; }
+.container { width:98.7vw!important; margin:0px auto 0px; background:#FFFFFF; padding:0px; font-size:12px; margin-top:-5px; margin-bottom:0px; }
+
+a{
+	text-transform:none;
+	color:#fff;
+}
+#footer{
+	background:#F0F0F0;
+	padding:10px;
+	border:#999 dotted 1px;
+}
+
+

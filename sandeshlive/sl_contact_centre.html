@@ -1,0 +1,679 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Multichannel contact center | SL</title>
+        <link rel="shortcut icon" href="images/favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+        <link rel="stylesheet" type="text/css" href="css/fonts.css" media="all" />
+        <link rel="stylesheet" href="tab/tab.css">
+        <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="tab/form5-tabs.css">
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="css13/bootstrap.min.css">
+
+        <!-- Adding css -->
+        <link rel="stylesheet" type="text/css" href="css13/layout.css" />
+        <link rel="stylesheet" href="css13/navbar.css">
+        <script src="js/prefixFree.js"></script>
+        <script src="js/jqueryv1.7.0.js"></script>
+        <script src="js/script.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/html5shiv.js"></script>
+        <link rel="stylesheet" media="all" type="text/css" href="css/ie.css" />
+        <![endif]-->
+        <!-- Sticky Scroll Menu Jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+            $(document).scroll(function () {
+                var y = $(this).scrollTop();
+                if (y > 100) {
+                    $('.topMenu').fadeIn();
+                } else {
+                    $('.topMenu').fadeOut();
+                }
+            });
+        </script>
+        <!--google analytics start here-->
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-34357422-1', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+        <!--google analytics end here-->
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+            (function () {
+                var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/5b76a872afc2c34e96e7a9c9/default';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            })();
+        </script>
+        <!--End of Tawk.to Script-->
+        <script>
+            $(document).ready(function () {
+
+                $('.mobile_button').click(function () {
+                    $('.header_holder').slideToggle();
+                });
+            });
+        </script>
+    </head>
+
+    <body class="body-center">
+        <div id="main">
+            <div class="topMenu">
+                <div class="wrapper">
+                    <div class="pull_left logo-sml"><a href="#" title=""><img src="images/logo-sml.png" alt="">
+                        </a></div>
+                    <div class="pull_left sub-heading">Enterprise Connect</div>
+                    <div class="pull_right clearfix">
+                        <ul class="topmenu">
+                            <li class="active"><a href="sl_contact_centre.html">
+                                    <i class="fa fa-home"></i>&nbsp;Contact Centre</a> </li>
+                            <!--<li><a href="sl_call_centre.html">
+                            <i class="fa fa-headphones"></i>&nbsp;Call Centre</a> </li>-->
+                            <li><a href="sl_ippbx.html">
+                                    <i class="fa fa-globe"></i>&nbsp;IP Office</a></li>
+                            <li><a href="sl_video_conference.html">
+                                    <i class="fa fa-video-camera"></i>&nbsp;Video Conference</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="new_slive_bg">-->
+            <!--Header-->
+            <header id="header" class="clearfix">
+                <div class="wrapper">
+                    <h1 class="pull_left" style="margin-top: 0px;">
+                        <a href="index.html" class="logo" title=""><img src="images/logo.png" alt=""></a>
+                    </h1>
+                    <span class="mobile_button"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                    <div class="header_holder pull_right clearfix" style="height: 50px">
+                        <nav class="pull_left">
+                            <ul class="nav_list clearfix">
+                                <!--<li class="first"> <a href="about.html">Company</a> </li>-->
+                                <li class="first"> <a href="about.html">Company</a> </li>
+                                <li> <a href="#">Products</a>
+                                    <div class="drp_dwn clearfix">
+                                        <div class="megamenu" style="padding-top: 0px">
+                                            <div class="menu-box">
+                                                <h2>Messaging</h2>
+                                                <ul>
+                                                    <li><a href="bulk_sms.html" style="font-weight:normal; font-size:14px;">
+                                                            <i class="fa fa-paper-plane-o"></i>&nbsp;Bulk SMS</a></li>
+                                                    <li><a href="pull_sms.html" style="font-weight:normal; font-size:14px;">
+                                                            <i class="fa fa-envelope-o"></i>&nbsp;Pull SMS</a></li>
+                                                    <li><a href="mobile-marketing.html" style="font-weight:normal; font-size:14px;">
+                                                            <i class="fa fa-paper-plane-o"></i>&nbsp;Marketing</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-box">
+                                                <h2>Cloud Voice</h2>
+                                                <ul>
+                                                    <li> <a href="obd_calls.html"><i class="fa fa-phone"></i>&nbsp;Bulk Voice Call</a> </li>
+                                                    <li><a href="cloud_phone.html" style="font-weight:normal; font-size:14px;"><i class="fa fa-cloud"></i>&nbsp;Cloud Telephony</a></li>
+                                                    <li><a href="sl_tollfree.html" style="font-weight:normal; font-size:14px;"><i class="fa fa-phone-square"></i>&nbsp;TollFree Numbers</a></li>
+                                                    <li><a href="sl_callback.html" style="font-weight:normal; font-size:14px;"><i class="fa fa-headphones"></i>&nbsp;Call Back Service</a></li>
+                                                    <li><a href="sl_missed_call.html" style="font-weight:normal; font-size:14px;"><i class="fa fa-bell-slash-o"></i>&nbsp;Missed Call Service</a></li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="menu-box">
+                                                <h2>Enterprise Connect</h2>
+                                                <ul>
+                                                    <li><a href="sl_contact_centre.html" style="font-weight:normal; font-size:14px;">
+                                                            <i class="fa fa-home"></i>&nbsp;Contact Centre</a> </li>
+                                                    <!--<li><a href="sl_call_centre.html" style="font-weight:normal; font-size:14px;">
+                                                    <i class="fa fa-headphones"></i></i>&nbsp;Call Centre</a> </li>-->
+                                                    <li><a href="sl_ippbx.html" style="font-weight:normal; font-size:14px;">
+                                                            <i class="fa fa-globe"></i>&nbsp;IP PBX</a></li>
+                                                    <li><a href="sl_video_conference.html" style="font-weight:normal; font-size:14px;">
+                                                            <i class="fa fa-video-camera"></i>&nbsp;Video Conference</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-box-right">
+                                                <div class="menu-rgt-txt">
+                                                    <h6 style="margin-top: 0px;">SLPanel</h6>
+                                                    <ul>
+                                                        <li style="margin-top: -32px;"><a href="web_panel.html"><h3>Web Interface</h3></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="menu-rgt-txt">
+                                                    <h6 style="margin-top: 20px;">Integrated</h6>
+                                                    <ul>
+                                                        <li style="margin-top: -35px;"><a href="api_voice_message.html"><h3>HTTP API</h3></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="menu-rgt-txt">
+                                                    <h6 style="margin-top: 15px;">Integrated</h6>
+                                                    <ul>
+                                                        <li style="margin-top: -35px;"><a href="sl_crm.html"><h3>CRM Plugins</h3></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="http://www.shop.sandeshlive.com/" target="_blank">Estore</a></li>
+                                <li> <a href="bulksms_pricing.html">Pricing</a>
+                                    <div class="drp_dwn_greybox clearfix">
+                                        <div class="pricemenu">
+                                            <div class="price_box_fs">
+                                                <div class="left_cont_top">Solutions for every use Case</div>
+                                                <div class="left_cont_bot">Apply SL to your use case,<br>
+                                                    and see how the world's most<br>
+                                                    innovative have succeeded<br>
+                                                </div>
+                                            </div>
+                                            <div class="price_box_nd">
+                                                <ul>
+                                                    <li><a href="bulksms_pricing.html" style="font-weight:normal;">
+                                                            <i class="fa fa-envelope-o"></i>&nbsp;SMS Solution</a></li>
+                                                    <li><a href="cloud_ivrs_pricing.html" style="font-weight:normal;">
+                                                            <i class="fa fa-cloud-upload"></i>&nbsp;Voice Solution</a></li>
+                                                    <li><a href="sl_enterprise_support_pricing.html" style="font-weight:normal;">
+                                                            <i class="fa fa-life-ring"></i>&nbsp;Server Support</a></li>
+                                                </ul>
+                                            </div>
+                                            <!-- <div class="price_box_td">
+                                                <ul>
+                                                <li><a href="http://www.shop.sandeshlive.com/" target="_blank" style="font-weight:normal;">
+                                                <i class="fa fa-desktop"></i>&nbsp;Hardware store</a></li>
+                                                <li><a href="#" style="font-weight:normal;">
+                                                <i class="fa fa-cog"></i>&nbsp;Custom Requirements</a></li>
+                                              </ul>
+                                             </div> -->
+                                            <div class="price_box_ft clearfix">
+                                                <div class="heading-text">Free Accounts & Free Advice</div>
+                                                <div class="sml_txt">SL can help you get started.</div>
+                                                <div><a href="#" class="sale_btn" style="background:none;">Talk to Sales</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li> <a href="sl_partner.html">Partners</a> </li>
+                                <li> <a href="sl_contact_us.html">Connect</a> </li>
+                            </ul>
+                        </nav>
+                        <div class="call_number pull_right">
+                            <p>Call: 1800-313-0105</p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!--END Header-->
+            <!-- Content Section -->
+            <div class="content" style="padding-top:25px;">
+
+                <div class="row" style="width:75%; margin:0 auto;">
+                    <div class="col-md-6" style="padding-top:65px;padding-right:0px;">
+                        <p class="contact-center-head">Add Insights Form <br/>All Sources</p>
+                        <p class="contact-center-subhead">& Phone conversations Automatically</p>
+                    </div>
+                    <div class="col-md-6" style="padding-left:0px;">
+                        <img src="social_media/61.png" class="img-responsive" title="trungk18" alt="trungk18" style="width:45%;position:absolute;"/>
+                        <img src="social_media/download.jpg" class="img-responsive" title="trungk18" alt="trungk18" style="width:100%;margin-left:56px;margin-top:14px;"/>
+                    </div>
+                </div>
+                <div class="container wrap-contant" style="background-color:#f8f8f8;margin-bottom:30px;margin-top:30px;">
+                    <div class="row" style="text-align:center;width:80%;margin:0 auto;">
+                        <h3 class="title-execution1">Call Center Modules</h3>
+                        <h5 class="title-execution5">SL Platform</h5>
+                        <h6 class="title-execution12">Transform How You Communicate, Collaborate, and Serve Your Customers</h6>
+                    </div>
+                    <div class="row" style="width:65%;margin:0 auto;text-align:center">
+                        <div class="module_box">
+                            <div class="module_box_img">
+                                <img src="social_media/inbound.png" style="width:9vw;height:auto">
+                            </div>
+                            <div class="txt20">Inbound Calls
+                            </div>
+                        </div>
+                        <div class="module_box">
+                            <div class="module_box_img">
+                                <img src="social_media/outbound.png" style="width:9vw;height:auto;margin-left:25px;">
+                            </div>
+                            <div class="txt20">Outbound Calls
+                            </div>
+                        </div>
+                        <div class="module_box">
+                            <div class="module_box_img">
+                                <img src="social_media/blended.png" style="width:9vw;height:auto;margin-left:25px;">
+                            </div>
+                            <div class="txt20">Blended Calls
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <div class="row" style="width:80%;margin:0 auto;">
+                    <div class="col-md-6">
+                        <h3 class="inbound-call-center">Inbound Call Center</h3>
+                        <p class="inbound-p">
+                            Distinguish your brand in the crowded marketplace and deliver
+                            exceptional customer service using the sophisticated routing
+                            capabilities of the SL Inbound Contact Center.
+                        </p>
+                        <p class="inbound-p">
+                            Quickly provide the responsiveness and well-informed
+                            agents that your customers are looking for.
+                        </p>
+                        <h3 class="inbound-call-center">Features</h3>
+                        <div class="row inbound-row" style="width:46%;margin-left:-38px;">
+                            <div class="col-md-4 feature-img">
+                                <img src="social_media/fea-o.png" style="width:5vw;height:auto;margin-left:25px;">
+                            </div>
+                            <div class="col-md-4 feature-img">
+                                <img src="social_media/fea-b.png" style="width:5vw;height:auto;margin-left:25px;">
+                            </div>
+                            <div class="col-md-4 feature-img">
+                                <img src="social_media/fea-g.png" style="width:5vw;height:auto;margin-left:25px;">
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="col-md-6 image-box">
+                        <img src="social_media/inbound_center.jpg" style="width:38vw;height:auto;padding-top:180px;">
+                    </div>
+                </div>
+
+
+
+                <div class="row" style="background-color:#f8f8f8;margin-top:15px;">
+                    <div class="row main-row-colm" style="width:80%;margin:0 auto;">
+                        <div class="col-md-6" style="margin-top:60px;margin-bottom:60px;">
+                            <div class="col-md-2" style="width:30%;">
+                                <img src="social_media/out-img1.png" style="width:10vw;height:auto;">
+                            </div>
+                            <div class="col-md-2" style="width:30%;">
+                                <img src="social_media/out-img2.png" style="width:10vw;height:auto;">
+                            </div>
+                            <div class="col-md-2" style="width:30%;">
+                                <img src="social_media/out-img3.png" style="width:10vw;height:auto;">
+                            </div>
+                            <div class="col-md-2" style="width:30%;">
+                                <img src="social_media/out-img4.png" style="width:10vw;height:auto;">
+                            </div>
+                            <div class="col-md-2" style="width:30%;">
+                                <img src="social_media/out-img5.png" style="width:10vw;height:auto;">
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 space-box" style="margin-top:35px;margin-bottom:60px;">
+                            <h3 class="inbound-call-center">Outbound Call Center</h3>
+                            <p class="inbound-p">
+                                SL offers multiple automated dialing solutions so you
+                                can choose the technology that aligns best with your
+                                environment and goals. Sales, marketing, non-profit agencies,
+                            </p>
+                            <p class="inbound-p">
+                                and collections organizations of all sizes have experienced
+                                productivity gains of up to 300% with the SL outbound
+                                solutions.
+                            </p>
+                            <p class="inbound-p">
+                                Make it happen with SL.
+                            </p>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row" style="width:80%;margin:40px auto;">
+                    <div class="col-md-6 space-box">
+                        <h3 class="inbound-call-center">Blended Call Center</h3>
+                        <p class="inbound-p">
+                            Advantage of blended call centre is during pick time of incoming
+                            calls, the calls will land to outbound agents and during low incoming period, inbound agents switch to outbound calls.
+                        </p>
+                        <p class="inbound-p">
+                            Calls volume load balances automatically, customers
+                            are not more on waiting, increases customer satisfaction.
+                        </p>
+                    </div>
+                    <div class="col-md-6 talephone">
+                        <img src="social_media/connect_bg.png" style="width:38vw;height:auto;padding-top:65px;">
+                    </div>
+                </div>
+
+
+
+                <div class="row" style="background-color:#f8f8f8;margin-top:15px;">
+                    <p class="contact-center-subhead1" style="text-align:center;margin-top:50px;">Engage Better, Respond Faster <br/> Empower your Agents</p>
+                    <p class="contact-center-content">
+                        SL Multichannel Contact Center Applications—powered by our unique technology layer called<br/>
+                        SL Connect—enable your agents to move seamlessly between social media, mobile care,<br/>
+                        live chat, email, and voice calls. They’ll be able to respond more efficiently and provide customers with a better experience across all channels.
+                    </p>
+                    <div class="row main-row-colm" style="width:790px;margin:0 auto 50px;">
+                        <div class="col-md-2 circul-img" style="padding-right:0px;width:20%;">
+                            <img src="social_media/social.png" class="img-responsive" title="trungk18" alt="trungk18" />
+                            <div class="circle-txt">Social
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 circul-img" style="padding-right:0px;width:20%;">
+                            <img src="social_media/message.png" class="img-responsive" title="trungk18" alt="trungk18" />
+                            <div class="circle-txt">Message
+                            </div>
+                        </div>
+                        <div class="col-md-2 circul-img" style="padding-right:0px;width:20%;">
+                            <img src="social_media/center_chat.png" class="img-responsive" title="trungk18" alt="trungk18" />
+                            <div class="circle-txt">Chat
+                            </div>
+                        </div>
+                        <div class="col-md-2 circul-img" style="padding-right:0px;width:20%;">
+                            <img src="social_media/email.png" class="img-responsive" title="trungk18" alt="trungk18" />
+                            <div class="circle-txt">Email
+                            </div>
+                        </div>
+                        <div class="col-md-2 circul-img" style="padding-right:0px;width:20%;">
+                            <img src="social_media/call_center.png" class="img-responsive" title="trungk18" alt="trungk18" />
+                            <div class="circle-txt">Voice calls
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="container Happen-SLive" style="padding-top:50px;">
+                    <h3 class="title2">Make It Happen With SLive</h3>
+
+                    <p class="about_mission" style="background-color: white;">
+                        Are you looking to grow business with net-new customers while up-selling to existing customers? Do you need to find good leads, improve contact ratios, and close<br/>
+                        business? Stop wasting time on manual dialing and managing leads. Outbound Contact Center automates lead and campaign management, so you can create <br/>
+                        an automated marketing and sales funnel that achieves your outbound goals.
+                    </p>
+                    <div class="row" style="width:790px;margin:0 auto;">
+                        <div class="col-md-3">
+                            <img src="social_media/right.jpg" title="trungk18" alt="trungk18" />
+                            <a href="contact.html" class="tick-mark">Prospecting</a>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="social_media/right.jpg" title="trungk18" alt="trungk18" />
+                            <a href="contact.html" class="tick-mark">Qualifying</a>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="social_media/right.jpg" title="trungk18" alt="trungk18" />
+                            <a href="contact.html" class="tick-mark">Nurturing</a>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="social_media/right.jpg" title="trungk18" alt="trungk18" />
+                            <a href="contact.html" class="tick-mark">Converting</a>
+                        </div>
+                    </div>
+
+                    <div class="row" style="width:80%;margin:0 auto;">
+                        <div class="col-md-6 contact-center-subhead2">
+                            <h3>Workforce Optimization captures and <br/>analyzes customer interactions</h3>
+                            <p class="about_mission5">
+                                Analyze, monitor and manage your operator performance in interacting <br/>with customers by capturing their voice calls, email, web chat sessions,<br/> message and more. This records is essential to evaluate customer<br/> satisfaction and improve employees performance.
+                            </p>
+                        </div>
+                        <div class="col-md-6 contact-center-subhead2">
+                            <h3>Visual Dashboard for critical business <br/>insights for full control</h3>
+                            <p class="about_mission5">
+                                The dashboard gives you 360 degree view performance of call center,<br/> easy to take decision on live environment where you need to focus<br/> resources. Data can be view and extract daily, monthly or customised<br/> filtered option.
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="container" style="margin-top:25px;margin-bottom:70px;">
+
+
+                </div>
+                <div class="container width-auto" style="background-color:#e9ebe7;margin-bottom:30px;">
+                    <div class="row" style="text-align:center;width:80%;margin:0 auto;">
+                        <h3 class="title-execution" style="margin-top:50px;">EXECUTION PROCESS</h3>
+                        <h5 class="head-h">Result driven inputs</h5>
+                        <p class="head-p">Blend of advance technology and communication channels with mangement to perfect match<br/> the solution for the enterprise requirement.</p>
+                    </div>
+                    <div class="row image-boxs" style="width:80%;margin:0 auto 50px;text-align:center">
+                        <img src="social_media/research.jpg" style="width:30%;height:auto" id="mobile-view">
+                        <img src="social_media/Strategy.jpg" style="width:30%;height:auto;margin-left:25px;" id="mobile-view">
+                        <img src="social_media/Execution.jpg" style="width:30%;height:auto;margin-left:25px;" id="mobile-view">
+
+                        <div class="row new-row-box" style="width:100%;margin: 0 50px 10px 5px;">
+                            <div class="col-md-4" style="margin-left:5px;padding-right:0px;">
+                                <div class="img-bot-social">
+                                    <h6 class="head-analytic">Analysis</h6>
+                                    Our solution architech people will work with you to analyse the industry, use case, current senario and space to colaborate the solutions with current infrastructre, till the resolution in mind to make the project differencite in terms of efficiency and cost effective.
+                                </div>
+                            </div>
+                            <div class="col-md-4" style="margin-left:5px;padding-left:3px;">
+                                <div class="img-bot-social" style="width:95%;">
+                                    <h6 class="head-analytic">Solutions Design</h6>
+                                    After gathering information and meeting with client with possibilities and after approval we will start the necessary development to make it in reality.
+                                </div>
+                            </div>
+                            <div class="col-md-4 Execution" style="margin-left:-18px;width:31%;top:-1px;">
+                                <div class="img-bot-social" style="width:106%;">
+                                    <h6 class="head-analytic">Execution</h6>
+                                    The last part is the execution part which includes make necessary implimentation of hardware engineering, integration and implimentation. After successful implimention and testing, we start tracking the result for smooth operation.
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div style="background-color:#f7f7f7; margin-bottom: -82px;">
+                    <h3 class="about-center" style="padding-top:65px;">Advantages</h3>
+                    <p class="about_mission">
+                        Powerful features in an elegant, straightforward API
+                    </p>
+                    <div class="row main-col-row-box" style="width:76%;margin:25px auto;text-align:center">
+                        <div class="col-md-3">
+                            <img src="social_media/advance01.png" style="margin-right:35px;">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="social_media/advance02.png" style="margin-right:35px;">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="social_media/advance03.png">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="social_media/advance04.png" style="height:auto">
+                        </div>
+                        <div class="row colm-three" >
+                            <div class="col-md-3">
+                                <div class="img-bot1" style="width:100%;">
+                                    <strong class="stron">Advance technology</strong><br>
+                                    Be the leader on your industry. Win the loyality of customer by making them happy and update with the latest technology.
+
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="img-bot1" style="width:100%;">
+                                    <strong class="stron">Service UPTIME SLA</strong><br>
+                                    We do make agreement for the service uptime for your peace of mind.
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="img-bot1" style="width:100%;">
+                                    <strong class="stron">MultiLayer Security</strong><br>
+                                    The infra secured with Apps level, OS level and Network level, all updated security patches will update with times
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="img-bot1" style="width:100%;">
+                                    <strong class="stron">Unmatched Support</strong><br>
+                                    Engineers are avilable for Email, Phone, Chat support for your query.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="footer-bottom" style="height:490px;" id="mobile7" >
+                  <div class="row" style="margin-left:0px;margin-right:0px;padding-top:25px;">
+                    <div class="col-md-2" style="width: 12%;">
+                    </div>
+                    <div class="col-md-4" style="padding-left:25px;width:38%;" id="mobile-view3">
+                      <h2 style="color:#fff;font-size:36px;font-weight:100;margin-top:0px;margin-bottom:18px;">
+                        About Vastech
+                      </h2>
+                      <p style="text-align:left;color:#fff;">We are a software company and a community of passionate, purpose-led individuals. We think disruptively to deliver technology to address our clients' toughest challenges, all while seeking to revolutionize the IT industry and create positive social change.</p>
+                    </div>
+        
+                    <div class="col-md-6" style="padding-left:0px;">
+                      <h2 style="color:#fff;font-size:36px;font-weight:100;padding-left:30px;margin-top:0px;margin-bottom:18px;">
+                        Connect with us
+                      </h2>
+                      <div class="col-md-12">
+                        <div class="col-md-1" style="padding-left:0px;padding-right:0px;margin-left:17px;">
+                          <img src="social_media/twitter_footer.png" data-src="social_media/twitter_footer.png" data-hover="social_media/twitter_footer.gif" alt="twitter" class="image-container" style="width:3.5vw;">
+                        </div>
+                        <div class="col-md-1" style="padding-left:0px;padding-right:0px;margin-left:17px;">
+                          <img src="social_media/facebook_footer.png" data-src="social_media/facebook_footer.png" data-hover="social_media/facebook_footer.gif" alt="facebook" class="image-container" style="width:3.5vw;">
+                        </div>
+                        <div class="col-md-1" style="padding-left:0px;padding-right:0px;margin-left:17px;">
+                          <img src="social_media/youtube_footer.png" data-src="social_media/youtube_footer.png" data-hover="social_media/youtube_footer.gif" alt="youtube" class="image-container" style="width:3.5vw;">
+                        </div>
+                        <div class="col-md-1" style="padding-left:0px;padding-right:0px;margin-left:17px;">
+                          <img src="social_media/linkedin_footer.png" data-src="social_media/linkedin_footer.png" data-hover="social_media/linkedin_footer.gif" alt="linkedin" class="image-container" style="width:3.5vw;">
+                        </div>
+                        <div class="col-md-1" style="padding-left:0px;padding-right:0px;margin-left:17px;">
+                          <img src="social_media/weibo_footer.png" data-src="social_media/weibo_footer.png" data-hover="social_media/weibo_footer.gif" alt="webchat" class="image-container" style="width:3.5vw;">
+                        </div>
+                        <div class="col-md-1" style="padding-left:0px;padding-right:0px;margin-left:17px;">
+                          <img src="social_media/instagram_footer.png" data-src="social_media/instagram_footer.png" data-hover="social_media/instagram_footer.gif" alt="instagram" class="image-container" style="width:3.5vw;">
+                        </div>
+                        <div class="col-md-1" style="padding-left:0px;padding-right:0px;margin-left:17px;">
+                          <img src="social_media/wechat_footer.png" data-src="social_media/wechat_footer.png" data-hover="social_media/wechat_footer.gif" alt="wechat" class="image-container" style="width:3.5vw;">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                -->
+                <div class="main">
+                    <!-- <article id="container">
+                     <section class="txt_msg02_holder new_txt_msg02_holder new_txt_msg03_holder">
+                                         <div class="wrapper">
+                                             <span class="box_heading"><img src="images/box_header.png" alt=""></span>
+                                             <div class="section_heading">
+                                                   <div class="content">
+                                                       <p class="title">Advantages</p>
+                                                        <p>Powerful features in an elegant, straightforward API</p>
+                                                   </div>
+                                               </div>
+                                               <ul class="advanced_list clearfix">
+                                                 <li>
+                                                     <span><img src="images/advance01.png" alt=""></span>
+                                                       <h4>Advance technology</h4>
+                                                       <p> Be the leader on your industry. Win the loyality of customer by making them happy and update with the latest technology.</p>
+                                                   </li>
+                                                   <li>
+                                                     <span><img src="images/advance02.png" alt=""></span>
+                                                       <h4>Service UPTIME SLA</h4>
+                                                       <p>We do make agreement for the service uptime for your peace of mind.</p>
+                                                   </li>
+                                                   <li>
+                                                     <span><img src="images/advance03.png" alt=""></span>
+                                                       <h4>MultiLayer Security</h4>
+                                                       <p>The infra secured with Apps level, OS level and Network level, all updated security patches will update with times </p>
+                                                   </li>
+                                                   <li class="last">
+                                                     <span><img src="images/advance04.png" alt=""></span>
+                                                       <h4>Unmatched Support</h4>
+                                                       <p>Engineers are avilable for Email, Phone, Chat support for your query.</p>
+                                                   </li>
+                                               </ul>
+                                           </div>
+                                       </section>
+                                   </article> -->
+                    <!--END Main Content-->
+                    <div class="wrapper" style="background:#e8e8e8;">
+                        <!--Footer-->
+                        <footer id="footer" class="bx_shadow tbg clearfix" style="    border: #999 1px;">
+                            <div class="footer_nav pull_left">
+                                <ul class="footer_nav_lst clearfix">
+                                    <li>
+                                        <a href="term_services.html">Terms of Service</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Disclaimer</a>
+                                    </li>
+                                    <li class="last">
+                                        <a href="privacy_policy.html">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="copyright pull_right">
+                                <p>Copyright (C) 2017, <strong>sandeshlive.com</strong></p>
+                            </div>
+                        </footer>
+                        <!--END Footer-->
+                    </div>
+                </div><!--main-->
+                <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+                <script src="tab/form5-tabs.min.js"></script>
+                <script>
+            $(function () {
+                $('tabs').tabs();
+            });
+                </script>
+                <script type="text/javascript">
+
+                    var _gaq = _gaq || [];
+                    _gaq.push(['_setAccount', 'UA-36251023-1']);
+                    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+                    _gaq.push(['_trackPageview']);
+
+                    (function () {
+                        var ga = document.createElement('script');
+                        ga.type = 'text/javascript';
+                        ga.async = true;
+                        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(ga, s);
+                    })();
+
+                </script>
+                </body>
+                </html>

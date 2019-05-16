@@ -1,0 +1,171 @@
+/*Font-awesome integration*/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/*Google font integration*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+p{
+	line-height: 1.6em;
+    color: #3c3c3c;
+    margin-bottom: 1.15em;
+    font-size: 18px;
+    font-weight: 100;
+	font-family: "Open Sans","Microsoft YaHei","Hiragino Sans GB","Hiragino Sans GB W3","微软雅黑","Helvetica Neue",Arial,sans-serif;
+
+}
+#contact .well{
+    margin-top:30px;
+    border-radius:0;
+}
+
+#contact .form-control{
+    border-radius: 0;
+    border:2px solid #1e1e1e;
+}
+
+#contact button{
+    border-radius:0;
+    border:2px solid #1e1e1e;
+}
+
+#contact .row{
+    margin-bottom:30px;
+}
+
+@media (max-width: 768px) { 
+    #contact iframe {
+        margin-bottom: 15px;
+    }
+    
+}
+
+BODY {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 0px; BORDER-TOP: medium none; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: medium none; COLOR: #666666; PADDING-TOP: 0px; BORDER-BOTTOM: medium none; FONT-FAMILY: Verdana, Arial, 'Times New Roman'
+}
+A {
+	font-size: 19.36px;
+   
+    color: #262929;	
+	FONT-FAMILY: Verdana, Arial, 'Times New Roman'; 
+	TEXT-DECORATION: none!important;
+}
+A:focus, A:hover {
+	font-size: 19.36px; 
+	
+    color: #262929;	
+	FONT-FAMILY: Verdana, Arial, 'Times New Roman'; 
+	TEXT-DECORATION: none!important;
+}
+
+#pro:focus, #pro:hover{
+	margin:0!important;
+}
+
+TD {
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, 'Times New Roman'
+}
+
+
+
+UL {
+	COLOR: gray; FONT-FAMILY: Verdana, Arial, 'Times New Roman'
+}
+U {
+	COLOR: black
+}
+A.link {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.link:hover {
+	COLOR: black; TEXT-DECORATION: underline
+}
+A.link1 {
+	FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, 'Times New Roman'
+}
+A.link1:hover {
+	FONT-SIZE: 12px; COLOR: black; FONT-FAMILY: Verdana, Arial, 'Times New Roman'; TEXT-DECORATION: none
+}
+STRONG {
+	FONT-SIZE: 13px; COLOR: black; FONT-FAMILY: Verdana, Arial, 'Times New Roman'
+}
+P.link {
+	COLOR: black
+}
+INPUT {
+	BORDER-RIGHT: #a5b9d2 1px solid; BORDER-TOP: #a5b9d2 1px solid; BORDER-LEFT: #a5b9d2 1px solid; BORDER-BOTTOM: #a5b9d2 1px solid; FONT-FAMILY: Verdana, Arial, 'Times New Roman'
+}
+SELECT {
+	BORDER-RIGHT: #a5b9d2 1px solid; BORDER-TOP: #a5b9d2 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #a5b9d2 1px solid; BORDER-BOTTOM: #a5b9d2 1px solid; FONT-FAMILY: Verdana, Arial, 'Times New Roman'
+}
+TEXTAREA {
+	BORDER-RIGHT: #a5b9d2 1px solid; BORDER-TOP: #a5b9d2 1px solid; BORDER-LEFT: #a5b9d2 1px solid; BORDER-BOTTOM: #a5b9d2 1px solid
+}
+OPTION TEXTAREA {
+	BORDER-RIGHT: #a5b9d2 1px solid; BORDER-TOP: #a5b9d2 1px solid; BORDER-LEFT: #a5b9d2 1px solid; BORDER-BOTTOM: #a5b9d2 1px solid
+}
+.menu {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, 'Times New Roman'
+}
+.menu:hover {
+	FONT-SIZE: 11px; COLOR: #adff42; FONT-FAMILY: Verdana, Arial, 'Times New Roman'; TEXT-DECORATION: none
+}
+.submenu {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, 'Times New Roman'
+}
+.topmenu {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, 'Times New Roman'
+}
+.topmenu:hover {
+	FONT-SIZE: 11px; COLOR: #0677d2; FONT-FAMILY: Verdana, Arial, 'Times New Roman'
+	TEXT-DECORATION: none; TEXT-DECORATION: none
+}
+.new {
+	FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, 'Times New Roman'
+}
+.new:hover {
+	FONT-SIZE: 10px; COLOR: #adff42; FONT-FAMILY: Verdana, Arial, 'Times New Roman'; TEXT-DECORATION: none
+}
+.newlink {
+	FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Verdana, Arial, 'Times New Roman'; TEXT-DECORATION: underline
+}
+.newlink:hover {
+	FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Verdana, Arial, 'Times New Roman'; TEXT-DECORATION: none
+}
+.mainmenu {
+	FONT-WEIGHT: bolder; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, 'Times New Roman'
+}
+.menu1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, 'Times New Roman'
+}
+.submit {
+	BORDER-RIGHT: lightgrey thin outset; BORDER-TOP: lightgrey thin outset; FONT-SIZE: 8pt; BORDER-LEFT: lightgrey thin outset; BORDER-BOTTOM: lightgrey thin outset; FONT-FAMILY: 'Comic Sans MS', Verdana, Arial, 'Times New Roman'; LETTER-SPACING: 1px; BACKGROUND-COLOR: #eeeeee
+}
+.new1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, 'Times New Roman'
+}
+
+.navbar{
+	min-height:20px;
+	
+}
+
+@media (min-width: 768px){
+.navbar-nav>li>a {
+    padding-top: 33px;
+    padding-bottom: 0px;
+}
+}
+
+.navbar-inverse {
+    
+    border-color: rgb(153, 153, 153);
+	margin-top:20px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+    
+.nav{
+		font-size:11px;
+}
+	

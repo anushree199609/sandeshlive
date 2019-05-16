@@ -1,0 +1,104 @@
+
+body{
+	font-family:roboto;
+	font-size :15px;
+}
+@media (min-width: 768px){
+.navbar {
+    border-radius: 0px!important;
+}
+}
+@media (min-width: 768px){
+.navbar-nav {
+    float: right;
+    
+}
+}
+.navbar-default {
+	background-color: #253b94;
+    border-color: #253b94;   
+}
+
+
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #ffff;
+    background-color: #18265d;
+}
+
+.masthead img{
+width:175px;;
+margin-bottom:15px;
+margin-top:15px;
+margin-left:15px;
+margin-right:15px;
+ }
+ 
+.content{
+text-align:center;
+font-size:18px;
+margin-top:66px;
+}  
+
+.content1{
+padding-left:40px;
+padding-right:40px;
+margin-bottom:15px;
+}  
+ 
+.content2{
+background-color:#f0f0f0;
+}
+
+.content3{
+	padding-left:30px;
+}
+	
+hr.style1{
+	border-top: 2px solid #ecebeb;
+	width: 95%;
+	margin-top:103px;
+}
+
+.con{
+	margin-top:51px;
+}
+ 	
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.nav li.selected {
+ color:#ffff;
+ 
+}
+
+#con2{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+
+/* f. Footer section */
+.footer{
+	padding: 60px 0;
+    width: 100%;
+    background: #253b94;
+    color: #fff;
+}
+
+/* g. Footer bottom section */
+.footer-bottom{
+	width: 100%;
+	padding: 25px 0;
+	text-align: center;
+	color: #fff;
+	background: #021f54;
+}
+
+

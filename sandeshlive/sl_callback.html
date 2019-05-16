@@ -1,0 +1,464 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Callback | SL</title>
+        <link rel="shortcut icon" href="images/favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+        <link rel="stylesheet" type="text/css" href="css/fonts.css" media="all" />
+        <link rel="stylesheet" href="tab/tab.css">
+        <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="tab/form5-tabs.css">
+        <script src="js/prefixFree.js"></script>
+        <script src="js/jqueryv1.7.0.js"></script>
+        <script src="js/script.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <!--[if lt IE 9]>
+        <!-- Sticky Scroll Menu Jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+
+                $('.mobile_button').click(function () {
+                    $('.header_holder').slideToggle();
+                });
+            });
+        </script>
+        <script src="js/bootstrap.min1.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/script.js"></script>
+
+        <script>
+            $(document).scroll(function () {
+                var y = $(this).scrollTop();
+                if (y > 100) {
+                    $('.topMenu').fadeIn();
+                } else {
+                    $('.topMenu').fadeOut();
+                }
+            });
+
+
+        </script>
+
+        <!--google analytics start here-->
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-34357422-1', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+        <!--google analytics end here-->
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+            (function () {
+                var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/5b76a872afc2c34e96e7a9c9/default';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            })();
+        </script>
+        <!--End of Tawk.to Script-->
+
+        <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/html5shiv.js"></script>
+        <link rel="stylesheet" media="all" type="text/css" href="css/ie.css" />
+        <![endif]-->
+    </head>
+
+    <body>
+        <div id="main">
+            <div class="topMenu">
+                <div class="wrapper">
+                    <div class="pull_left logo-sml"><a href="#" title=""><img src="images/logo-sml.png" alt="">
+                        </a></div>
+                    <div class="pull_left sub-heading">Cloud Voice</div>
+                    <div class="pull_right clearfix">
+                        <ul class="topmenu">
+                            <li><a href="obd_calls.html">
+                                    <i class="fa fa-paper-plane-o"></i>&nbsp;Outbound Dialer</a></li>
+                            <li><a href="cloud_phone.html">
+                                    <i class="fa fa-cloud"></i>&nbsp;Cloud Telephony</a></li>
+                            <li><a href="sl_tollfree.html">
+                                    <i class="fa fa-phone-square"></i>&nbsp;TollFree Numbers</a></li>
+                            <li class="active"><a href="sl_callback.html">
+                                    <i class="fa fa-headphones"></i>&nbsp;Call Back Service</a></li>
+                            <li><a href="sl_missed_call.html">
+                                    <i class="fa fa-bell-slash-o"></i>&nbsp;Missed Call Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--Header-->
+            <header id="header" class="clearfix">
+                <div class="wrapper">
+                    <h1 class="pull_left">
+                        <a href="index.html" class="logo" title=""><img src="images/logo.png" alt=""></a>
+                    </h1>
+                    <span class="mobile_button"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                    <div class="header_holder pull_right clearfix">
+                        <nav class="pull_left">
+                            <ul class="nav_list clearfix">
+                                <!--<li class="first"> <a href="about.html">Company</a> </li>-->
+                                <li class="first"> <a href="about.html">Company</a> </li>
+                                <li> <a href="#">Products</a>
+                                    <div class="drp_dwn clearfix">
+                                        <div class="megamenu">
+                                            <div class="menu-box">
+                                                <h2>Messaging</h2>
+                                                <ul>
+                                                    <li><a href="bulk_sms.html" style="font-weight:normal; font-size:14px;">
+                                                            <i class="fa fa-paper-plane-o"></i>&nbsp;Bulk SMS</a></li>
+                                                    <li><a href="pull_sms.html" style="font-weight:normal; font-size:14px;">
+                                                            <i class="fa fa-envelope-o"></i>&nbsp;Short Code/Long Code</a></li>
+                                                    <li><a href="mobile-marketing.html" style="font-weight:normal; font-size:14px;">
+                                                            <i class="fa fa-paper-plane-o"></i>&nbsp;Marketing</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-box">
+                                                <h2>Cloud Voice</h2>
+                                                <ul>
+                                                    <li> <a href="obd_calls.html"><i class="fa fa-phone"></i>&nbsp;Bulk Voice Call</a> </li>
+                                                    <li><a href="cloud_phone.html" style="font-weight:normal; font-size:14px;"><i class="fa fa-cloud"></i>&nbsp;Virtual Number</a></li>
+                                                    <li><a href="sl_tollfree.html" style="font-weight:normal; font-size:14px;"><i class="fa fa-phone-square"></i>&nbsp;TollFree Numbers</a></li>
+                                                    <li><a href="sl_callback.html" style="font-weight:normal; font-size:14px;"><i class="fa fa-headphones"></i>&nbsp;Call Back Service</a></li>
+                                                    <li><a href="sl_missed_call.html" style="font-weight:normal; font-size:14px;"><i class="fa fa-bell-slash-o"></i>&nbsp;Missed Call Service</a></li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="menu-box">
+                                                <h2>Enterprise Connect</h2>
+                                                <ul>
+                                                    <li><a href="sl_contact_centre.html" style="font-weight:normal; font-size:14px;">
+                                                            <i class="fa fa-home"></i>&nbsp;Contact Centre</a> </li>
+                                                    <!--<li><a href="sl_call_centre.html" style="font-weight:normal; font-size:14px;">
+                                                    <i class="fa fa-headphones"></i></i>&nbsp;Call Centre</a> </li>-->
+                                                    <li><a href="sl_ippbx.html" style="font-weight:normal; font-size:14px;">
+                                                            <i class="fa fa-globe"></i>&nbsp;IP PBX</a></li>
+                                                    <li><a href="sl_video_conference.html" style="font-weight:normal; font-size:14px;">
+                                                            <i class="fa fa-video-camera"></i>&nbsp;Video Conference</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-box-right">
+                                                <div class="menu-rgt-txt">
+                                                    <h6>Live Panel</h6>
+                                                    <ul>
+                                                        <li><a href="web_panel.html"><h3>Web Interface</h3></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="menu-rgt-txt">
+                                                    <h6>Integrated</h6>
+                                                    <ul>
+                                                        <li><a href="api_voice_message.html"><h3>HTTP API</h3></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="menu-rgt-txt">
+                                                    <h6>Integrated</h6>
+                                                    <ul>
+                                                        <li><a href="sl_crm.html"><h3>CRM Plugins</h3></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="http://www.shop.sandeshlive.com/" target="_blank">Estore</a></li>
+                                <li> <a href="bulksms_pricing.html">Pricing</a>
+                                    <div class="drp_dwn_greybox clearfix">
+                                        <div class="pricemenu">
+                                            <div class="price_box_fs">
+                                                <div class="left_cont_top">Solutions for every use Case</div>
+                                                <div class="left_cont_bot">Apply SL to your use case,<br>
+                                                    and see how the world's most<br>
+                                                    innovative have succeeded<br>
+                                                </div>
+                                            </div>
+                                            <div class="price_box_nd">
+                                                <ul>
+                                                    <li><a href="bulksms_pricing.html" style="font-weight:normal;">
+                                                            <i class="fa fa-envelope-o"></i>&nbsp;SMS Solution</a></li>
+                                                    <li><a href="cloud_ivrs_pricing.html" style="font-weight:normal;">
+                                                            <i class="fa fa-cloud-upload"></i>&nbsp;Voice Solution</a></li>
+                                                    <li><a href="sl_enterprise_support_pricing.html" style="font-weight:normal;">
+                                                            <i class="fa fa-life-ring"></i>&nbsp;Server Support</a></li>
+                                                </ul>
+                                            </div>
+                                            <!-- <div class="price_box_td">
+                                                  <ul>
+                                                      <li><a href="http://www.shop.sandeshlive.com/" target="_blank" style="font-weight:normal;">
+                                                      <i class="fa fa-desktop"></i>&nbsp;Hardware store</a></li>
+                                                      <li><a href="#" style="font-weight:normal;">
+                                                      <i class="fa fa-cog"></i>&nbsp;Custom Requirements</a></li>
+                                                  </ul>
+                                             </div> -->
+                                            <div class="price_box_ft clearfix">
+                                                <div class="heading-text">Free Accounts & Free Advice</div>
+                                                <div class="sml_txt">SL can help you get started.</div>
+                                                <div><a href="#" class="sale_btn" style="background:none;">Talk to Sales</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li> <a href="sl_partner.html">Partners</a> </li>
+                                <li> <a href="sl_contact_us.html">Connect</a> </li>
+                            </ul>
+                        </nav>
+                        <div class="call_number pull_right">
+                            <p>Call: 1800-313-0105</p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!--END Header-->
+        </div>
+        <!--Main Content-->
+        <article id="container">
+            <section class="laptop_holder">
+                <div class="wrapper">
+                    <div class="laptop_cnt">
+                        <div class="top_holder">
+                            <h2>CALL BACK</h2>
+                            <p>It's tollfree for the caller.</p>
+                        </div>
+                        <h6>Make your customer happy!! :) </h6>
+                        <p><br> Call back is an innovative communication service offering your <br> audiance instant callback and can land to your representative, <br> announce information or play IVR and take input desired option.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="benefits_holder">
+                <div class="wrapper">
+                    <div class="section_heading">
+                        <div class="content">
+                            <span class="img_holder"><img src="images/cloud01.png" alt=""></span>
+                            <p class="title">Cloudphony Benefits</p>
+                            <p>Cloud Telephony is perfect for businesses that want innovative phone solutions,simply need to eliminate the costs,
+                                <br>responsibilities, and risks of ownership of traditional premise-based phone systems.
+                                <br>While offering much more flexibility than a traditional phone system, Cloud Telephony is quick, easy,
+                                <br>and affordable for any size business.</p>
+                        </div>
+                    </div>
+                    <ul class="benefits_list">
+                        <li>
+                            <img src="images/benefits_01.png" alt="">
+                            <p>Revenue Measurement</p>
+                        </li>
+                        <li>
+                            <img src="images/benefits_02.png" alt="">
+                            <p>Re Marketing</p>
+                        </li>
+                        <li>
+                            <img src="images/benefits_03.png" alt="">
+                            <p>Anywhere / Everywhere</p>
+                        </li>
+                        <li>
+                            <img src="images/benefits_04.png" alt="">
+                            <p>One for All</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="txt_msg01_holder">
+                <div class="wrapper">
+                    <div class="section_heading">
+                        <div class="content">
+                            <span class="img_holder"><img src="images/cloud01.png" alt=""></span>
+                            <p class="title">Cloudphony Features</p>
+                            <p>A wide catalogue of songs: Recent Bollywood hits, regional film songs, devotional and many more. </p>
+                        </div>
+                    </div>
+                    <ul class="msg_lst clearfix">
+                        <li>
+                            <div class="clearfix">
+                                <span class="img_holder pull_left"><img src="images/msg_lst01.png" alt=""></span>
+                                <div class="cnt_holder pull_left">
+                                    <h6>IVRS</h6>
+                                    <p>Greet your user with proffessional voice 24*7, and ask for input to distribute calls right department.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="clearfix">
+                                <span class="img_holder pull_left"><img src="images/msg_lst02.png" alt=""></span>
+                                <div class="cnt_holder pull_left">
+                                    <h6>Call History</h6>
+                                    <p>Track missed call, received calls, operators. and your advertisement performance on the web.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="last">
+                            <div class="clearfix">
+                                <span class="img_holder pull_left"><img src="images/msg_lst03.png" alt=""></span>
+                                <div class="cnt_holder pull_left">
+                                    <h6>Call Recording</h6>
+                                    <p>For monitoring and improvement all calls can be recorded and access using web management tools.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="clearfix">
+                                <span class="img_holder pull_left"><img src="images/msg_lst04.png" alt=""></span>
+                                <div class="cnt_holder pull_left">
+                                    <h6>Number never busy</h6>
+                                    <p>Now no busy tone, multiple calls can be handle at the same time and routed to alternate operator.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="clearfix">
+                                <span class="img_holder pull_left"><img src="images/msg_lst05.png" alt=""></span>
+                                <div class="cnt_holder pull_left">
+                                    <h6>Ring method</h6>
+                                    <p> Ring all, Sequential and Round robin call will be distributed with advance distribution methods.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="last">
+                            <div class="clearfix">
+                                <span class="img_holder pull_left"><img src="images/msg_lst06.png" alt=""></span>
+                                <div class="cnt_holder pull_left">
+                                    <h6>Music on hold</h6>
+                                    <p>Now promote your product while your client is on hold. Your telephone generate revenue for business.</p>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div class="clearfix">
+                                <span class="img_holder pull_left"><img src="images/msg_lst01.png" alt=""></span>
+                                <div class="cnt_holder pull_left">
+                                    <h6>Web Management</h6>
+                                    <p>On the go access your telephone for monitor, configure and management. Improves productivity. </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="clearfix">
+                                <span class="img_holder pull_left"><img src="images/msg_lst02.png" alt=""></span>
+                                <div class="cnt_holder pull_left">
+                                    <h6>Voice mail</h6>
+                                    <p>Option to receive voice mail in office off hours or holidays, listen voice when you are avialble.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="last">
+                            <div class="clearfix">
+                                <span class="img_holder pull_left"><img src="images/msg_lst03.png" alt=""></span>
+                                <div class="cnt_holder pull_left">
+                                    <h6>CRM Integration</h6>
+                                    <p>Powerful API is available to integrate with your CRM. CRM will merge the communicaiton with the client. </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="clearfix">
+                                <span class="img_holder pull_left"><img src="images/msg_lst04.png" alt=""></span>
+                                <div class="cnt_holder pull_left">
+                                    <h6>Direct Extension</h6>
+                                    <p>Your customer will reach directly with the desired operator by dialling the extension.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="clearfix">
+                                <span class="img_holder pull_left"><img src="images/msg_lst05.png" alt=""></span>
+                                <div class="cnt_holder pull_left">
+                                    <h6>SMS Notification</h6>
+                                    <p>SMS will deliver to caller with greetings or various information and operator with call details. </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="last">
+                            <div class="clearfix">
+                                <span class="img_holder pull_left"><img src="images/msg_lst06.png" alt=""></span>
+                                <div class="cnt_holder pull_left">
+                                    <h6>Black list</h6>
+                                    <p>This features enables to restrict unwanted calls. Save your valuable business time.</p>
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="txt_msg02_holder new_txt_msg02_holder">
+                <div class="wrapper">
+                    <span class="box_heading"><img src="images/box_header.png" alt=""></span>
+                    <div class="section_heading">
+                        <div class="content">
+                            <p class="title">Intelligent Architecture</p>
+                            <p>Powerful features in an elegant, straightforward API</p>
+                        </div>
+                    </div>
+                    <ul class="advanced_list clearfix">
+                        <li>
+                            <span><img src="images/advance01.png" alt=""></span>
+                            <h4>Redudancy</h4>
+                            <p>Failover resources configured for highly availability of service.</p>
+                        </li>
+                        <li>
+                            <span><img src="images/advance02.png" alt=""></span>
+                            <h4>Service UPTIME SLA</h4>
+                            <p>We do make agreement for the service uptime for your peace of mind.</p>
+                        </li>
+                        <li>
+                            <span><img src="images/advance03.png" alt=""></span>
+                            <h4>MultiLayer Security</h4>
+                            <p>The infra secured with Apps level, OS level and Network level on the cloud.</p>
+                        </li>
+                        <li class="last">
+                            <span><img src="images/advance04.png" alt=""></span>
+                            <h4>Unmatched Support</h4>
+                            <p>Engineers are avilable for Email, Phone, Chat support for your query.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </article>
+        <!--END Main Content-->
+        <div class="wrapper">
+            <!--Footer-->
+            <footer id="footer" class="bx_shadow clearfix">
+                <div class="footer_nav pull_left">
+                    <ul class="footer_nav_lst clearfix">
+                        <li>
+                            <a href="term_services.html">Terms of Service</a>
+                        </li>
+                        <li>
+                            <a href="#">Disclaimer</a>
+                        </li>
+                        <li class="last">
+                            <a href="privacy_policy.html">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="copyright pull_right">
+                    <p>Copyright (C) 2017, <strong>sandeshlive.com</strong></p>
+                </div>
+            </footer>
+            <!--END Footer-->
+        </div>
+    </div><!--main-->
+</body>
+</html>
